@@ -11,7 +11,7 @@ def create_database():
     connection = None
 
     try:
-        connection =mysql.connector.connect(host='localhost', user='root', password='Pandian@1707')
+        connection =mysql.connector.connect(host='localhost', user='root', password='')
 
         if connection.is_connected():
             cursor = connection.cursor()
